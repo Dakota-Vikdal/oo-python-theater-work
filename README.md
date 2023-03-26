@@ -3,6 +3,11 @@
   
 ***
 
+Audition >------ Role 
+
+Role -------- < Auditions
+
+
 ## Introduction
 
 The Flatiron Theater Company is holding auditions!
@@ -15,6 +20,11 @@ An actor may only `Audition` for one `Role`, while a `Role` may have many
 ## Getting started
 
 
+*Actors belong to a role*
+*Roles have many auditions(potential actors)*
+*this is a one-to-many relationship*
+
+
 - `Auditions` should have an actor (string), location (string), hired (boolean) and **belong to** a role.
 - `Roles` should only have a character_name (string) and **have many** auditions.
 
@@ -24,6 +34,9 @@ An actor may only `Audition` for one `Role`, while a `Role` may have many
   many-to-many)?
 
 ## A note about notation
+
+*an instance is an object that is attached to a class*
+*a class is a function that hosts attributes, methods and objects*
 
 - When you see a `"#"` the functionality is related to the instance, a `"."` the class.
 
